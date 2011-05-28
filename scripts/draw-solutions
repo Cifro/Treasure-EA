@@ -1,0 +1,2 @@
+plot [0:31] [0:26] \
+     'solutions' using 1:2 title "" with points pointtype 3 pointsize 2

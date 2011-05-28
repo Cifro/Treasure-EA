@@ -1,0 +1,13 @@
+individual = 0
+
+set multiplot
+load '../scripts/draw-space'
+if(hasSolutions > 0) load '../scripts/draw-solutions'
+load '../scripts/draw-individuals'
+set nomultiplot
+
+print generation
+pause -1 "... hit a key"
+
+generation = generation + skipGenerations
+if( generation < numOfGenerations ) reread

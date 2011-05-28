@@ -1,0 +1,12 @@
+#  Parameters needed to be set, depending on data
+
+numOfGenerations = 100
+
+skipGenerations = 10   # How much generations will be skipped
+
+numOfIndividuals = 1
+
+# Do we have a file with best solutions / paths?
+
+hasSolutions = 1     # 0 - no, > 0  yes
+

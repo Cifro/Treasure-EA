@@ -1,0 +1,11 @@
+stl1 = 2 * individual + 1
+stl2 = 2 * individual + 2
+
+color = ( individual % 4) + 2
+
+plot [0:31] [0:26] \
+     'individuals' index generation using stl1:stl2 \
+               title "" with linespoints lt color lw 3 pt 1 ps 1
+
+individual = individual + 1
+if( individual < numOfIndividuals ) reread

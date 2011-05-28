@@ -1,0 +1,1 @@
+Set chmod +x for all 'a.out' and 'run' files

@@ -1,0 +1,2 @@
+plot [0:31] [0:26] \
+     '../scripts/space' using 1:2 title "" with points pointtype 4 pointsize 3

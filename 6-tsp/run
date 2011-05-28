@@ -1,0 +1,2 @@
+./a.out > individuals
+gnuplot ../scripts/load

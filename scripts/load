@@ -1,0 +1,12 @@
+load "parameters"
+
+set noborder
+set noxtics
+set noytics
+set format x ""
+set format y ""
+
+generation = 0
+
+load '../scripts/draw-aux'
+
